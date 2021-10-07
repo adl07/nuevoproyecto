@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+.container{
+    min-height: calc(100vh - 1200px);
+}
+header{ 
+    height: 1000px;
+    background-image: url(imagenes/ny.jpg);
+}
+footer{
+    background-color: #001219;
+    height: 200px;
+}
+.redes{
+    background: #001219;
+    color: white;
+}
+.iconoIg{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.iconoYt{
+    font-size: 30px;
+}
+.banderaDeNy img{
+    width: 300px;
+}
+.linksDelNav{
+    font-size: 18px;
+    color: black; 
+    margin: 10px;
+    text-decoration: none;
+}
+.navbar{
+    background: transparent;
+    transition: 0.5s;
+}
+.navbar:hover{
+    background-color: #001219;
+}
+.linksDelNav{
+    color: #edf6f9;
+}
+.eslogan{
+    top: 35%;
+    padding-top: 200px;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.mapa{
+    margin-top: 100px;
+    font-size: 22px;
+}
+.mapa img{
+    width: 50%;
+}
+.banderaDeNyFooter{
+    width: 200px;
+}
+.dropdown{
+    padding-top: 10px;
+}
+.dropdown-toggle{
+    width: 80px;
+    height: 35px;
+    border: none;
+    color: #f7f7ff;
+    background: #001219;
+    padding: 2px;
+}
+.iconoDeBusqueda{
+    color: #f7f7ff;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.orientacion h2{
+    padding: 40px 0;
+}
+.informacion{
+    padding: 100px 0;
+    background: #efd28d;
+}
+.informacion p{
+    font-size: 22px;
+}
+.informacion a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.imagenes{
+    width: 500px;
+    transition: 0.5s;
+}
+.imagenes:hover{
+    transform: translateY(-15px);
+    box-shadow: 15px 15px 16px #8d99ae;
+    opacity: 70%;
+}
+#imagenesCp{
+    width: 500px;
+    transition: 0.5s;
+}
+#imagenesCp:hover{
+    transform: translateY(-15px);
+    box-shadow: 15px 15px 16px #8d99ae;
+    opacity: 70%;
+}
+#imagenesVc{
+    width: 445px;
+    transition: 0.5s;
+}
+#imagenesVc:hover{
+    transform: translateY(-15px);
+    box-shadow: 15px 15px 16px #8d99ae;
+    opacity: 70%;
+}
+.botonDeLeer{
+    padding-bottom: 80px;
+}
+.botonLeerMas{
+    width: 80px;
+    height: 35px;
+    border: none;
+    color: #f7f7ff;
+    background: #001219;
+    padding: 2px;
+    margin-top: 10px;
+}
+.botonLeerMas:hover{
+    background: transparent;
+    color: #001219;
+    transition: 0.5s;
+}
+.visitas{
+    padding: 100px 0;
+    background: #c7f9cc;
+}
+.visitas p{
+    font-size: 22px;
+}
+.visitas a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.fondo{
+    background: #c7f9cc;
+}
+.estiloDeFondo{
+    background: #001219;
+}
+.beneficios{
+    background: #efd28d;
+}
+.fondoDelHeader{
+    height: 172px;
+}
+.textoDeOrientacionFondo{
+    height: 150px;
+    padding: 20px;
+}
+.textoDeOrientacion{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.orientacionViajeros h2{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #6c757d;
+}
+.orientacionViajeros h2, p{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 30px;
+}
+button{
+    background: transparent;
+    border: none;
+}
+.iconosDeMedios{
+    width: 300px;
+}
+#iconosDeMediosTren{
+    width: 150px;
+}
+.tickets{
+    display: inline-flex;
+    justify-content: center;
+    width: 600px;
+    text-align: center;
+}
+.hola{
+    width: 600px;
+}
+
+/* //Header//
+.fondoDelNav{
+    display: inline-flex;
+    width: 100%;
+}
+.fondoDelNav:hover{
+    background: #01161e;
+    transition: 0.5s;
+}
+nav{
+    width: 1300px;
+    height: 100px;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    line-height: 100px;
+    color: #f7f7ff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+nav ul li:hover a{
+    color: #f7f7ff;
+}
+.logoDeNy{
+    background: linear-gradient(to right, #C9D6FF, #E2E2E2);
+    height: 100px;
+    width: 350px;
+    display: inline-flex;
+}
+.logoP{
+    padding-top: 15px;
+}
+.botoneDeBusqueda{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    height: 100px;
+    width: 150px;
+}
+.iconoDeBusqueda{
+    font-size: 18px;
+    color: #f7f7ff;  
+    line-height: 100px;
+}
+.formulario{
+    border: none;
+    width: 80px;
+    height: 30px;
+    background: transparent;
+    font-size: 20px;
+    color: #f7f7ff;
+}
+.eslogan{
+    left: 40%;
+    top: 45%;
+    position: relative;
+}
+.eslogan p{
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+}/*
+/* //Main//
+.orientacion{
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #ced4da;  
+}
+.orientacionTexto1{
+    font-size: 40px;
+    color: #6c757d;
+    text-align: center;
+}
+.orientacionTexto2{
+    font-size: 18px;
+    text-align: center;
+}
+.botonDeLeer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.informacion{
+    width: 1300px;
+    height: 600px;
+    margin-top: 50px;
+    border: 1px solid black;
+    overflow: hidden;
+    
+}
+.informacionSaberMas{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    font-size: 18px;
+    color: #e63946;
+    font-family: 'Inter', sans-serif;
+}
+.informacionSaberMas:hover{
+    color: #e63946;
+}
+.beneficios{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagenes{
+    height: 400px;
+    width: 400px;
+    padding: 50px 0;
+}
+.imagenes:hover{
+    opacity: 75%;
+    transition: 0.5s;
+    transform: translateY(-15px);
+}
+#food{
+    width: 350px;
+}
+.informacion2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #e63946;
+}
+.informacion3{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: #e63946;
+}
+.imagenes h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.mapa{
+    max-width: 1300px;
+    height: 800px;
+    border: 1px solid green;
+    margin-top: 15px;
+}
+.mapa p{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: #e63946; 
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imagen img{
+    height: 90%;
+}
+#imagenFood{
+    width: 100%;
+    height: 90%;
+}*/
+/* // Footer // 
+.pieDePagina{
+    display: flex;
+    width: 100%;
+}
+.visiteNy{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+.visiteNy p{
+    color: #f7f7ff;
+}
+#logoDeNyFooter{
+    height: 100px;
+    width: 350px;
+    background: transparent;
+}
+#logoDeNyFooterImg{
+    width: 150px;
+}
+.yo{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.yo p{
+    color: #f7f7ff;
+    padding: 10px;
+}
+.dropdown{
+    padding-top: 10px;
+}
+.dropdown-toggle{
+    width: 80px;
+    height: 35px;
+    border: none;
+    color: #f7f7ff;
+    background: #001219;
+    padding: 2px;
+}
+.redes{
+    display: flex;
+    justify-content: end;
+    width: 300px;
+}
+.iconoIg{
+    color: #f7f7ff;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.iconoYt{
+    color: #f7f7ff;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}*/

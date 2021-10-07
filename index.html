@@ -4,27 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visite New York</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Viaje por New York</title>
 </head>
-<body style="padding: 0; margin: 0;background-image: url(ny.jpg); background-size: cover;">      
-    <header style="background-color: #99c1de; height: 100px">
-        <div class="container">
-            <nav style="text-align: center; padding-top: 15px; font-size: 20px">
-                <a href="" style="text-decoration: none; color: white;">Tours</a>
-                <a href=""style="text-decoration:none; color: white;">History</a>
-                <a href=""style="text-decoration:none; color: white;">Days and Hours</a>   
-            </nav>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="d-inline-flex p-0">
+                <div class="banderaDeNy">
+                    <img src="imagenes/bandera de NY.png" alt="CiudadDeNY" class="img-fluid">
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light w-100">
+                    <div class="container-fluid">
+                      <a class="linksDelNav" href="#">Inicio</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle-navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                          <li class="nav-item">
+                            <a class="linksDelNav" aria-current="page" href="#">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="linksDelNav">Que hacer</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="linksDelNav" href="#">Ayudandote a planear</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="covid19.html" class="linksDelNav">COVID-19</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Escribe aquí" aria-label="Buscar">
+                          <i class="fas fa-search iconoDeBusqueda"></i>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="text-center">
+            <h1 class="eslogan">A DÓNDE IRÁS PRIMERO?</h1>
         </div>
     </header>
-    <div class="container" style="min-height: calc(100vh - 200px); text-align: center;">
-        <h1>Viaje por Nueva York</h1>
-        <p>La ciudad se compone de cinco boroughs: Bronx, Brooklyn, Manhattan, Queens y Staten Island (también conocidos como "distritos metropolitanos" para los efectos de la ciudad, y cuya traducción y figura administrativa es equivalente a "municipio"), cada uno de los cuales coincide con un condado: Bronx, Kings, Nueva York, Queens, y Richmond. Con más de 24 millones de neoyorquinos en un área urbana de 830 kilómetros cuadrados (320 mi²), Nueva York es la segunda ciudad con más densidad de población de los Estados Unidos, solo detrás de Union City, Nueva Jersey, localizada al otro lado del río Hudson.10​ Junto con Ginebra, Basilea y Estrasburgo, Nueva York es una de las pocas ciudades del mundo que es sede de varias instituciones internacionales sin ser la capital política de un estado.11​</p>
-        <p>La ciudad tiene muchos lugares y edificios reconocidos por todo el mundo. Por ejemplo, la estatua de la Libertad, ubicada en la isla homónima, y la isla de Ellis, que recibió a millones de inmigrantes que llegaban a Estados Unidos a finales del siglo XIX y comienzos del XX. Wall Street ha sido uno de los principales centros mundiales de finanzas desde la Segunda Guerra Mundial y es la sede de la Bolsa de Nueva York. </p>
-    </div>
-    <footer style="height: 100px; background-color: #99c1de;">
-        <div class="container">
-            <p style="padding: 20px; color: white;">©Adriel Alegre</p>
+    <main class="container-fluid">
+      <div class="orientacion text-center">
+        <h2 class>Orientación COVID-19 para viajeros</h2>
+        <div>
+          <p class="pb-5">¡Una cálida bienvenida te espera! La frontera canadiense está abierta a viajeros que estén completamente vacunados contra COVID-19 (con excepciones) a partir del 7 de septiembre de 2021.<br> Para obtener información actualizada sobre viajes a Canadá, visite nuestra página de Orientación para viajeros sobre COVID-19.</p>
         </div>
+        <div class="botonDeLeer">
+            <input type="button" value="Leer más" class="botonLeerMas">
+        </div>
+      </div>
+      <div class="row">
+        <div class="informacion text-center">
+          <p class="col-md-6 text-center pb-5">Oportunidades infinitas</p>
+              <div class="row">
+                <p class="col-md-6 text-center">Ciudades Vibrantes</p>
+                <a href="#" class="col-md-6 text-center">Saber más</a>
+            </div>
+        </div>
+      </div>
+        <div class="row beneficios">
+          <div class="col-md-4 text-center">
+              <img src="imagenes/centralpark.jpg" class="img-fluid" id="imagenesCp">
+              <h4 class="text-center pt-3">Central Park</h4>
+          </div>
+          <div class="col-md-4 text-center">
+              <img src="imagenes/districto.jpg" class="img-fluid imagenes">
+              <h4 class="text-center pt-3">Districtos</h4>
+          </div>
+          <div class="col-md-4 text-center">
+              <img src="imagenes/estatua.jpg" class="img-fluid imagenes">
+              <h4 class="text-center pt-3">Estatuas</h4>
+          </div>
+      </div>
+      </div>
+        <div class="mapa text-center">
+          <p class="col-md-6 text-center">Explore New York</p>
+          <div class="imagen">
+              <img src="imagenes/mapadelaciudad.png" class="img-fluid">
+          </div>
+      </div>
+      <div class="row fondo">
+        <div class="visitas text-center">
+          <p class="col-md-6 text-center pb-5">Oportunidades infinitas</p>
+              <div class="row">
+                <p class="col-md-6 text-center">Ciudades Vibrantes</p>
+                <a href="#" class="col-md-6 text-center">Saber más</a>
+            </div>
+        </div>
+      </div>
+      <div class="row fondo">
+        <div class="col-md-4 text-center pb-5">
+            <img src="imagenes/fooddeny.jpg" class="img-fluid" id="imagenesVc">
+            <h4 class="text-center pt-3">Variedad de comidas</h4>
+        </div>
+        <div class="col-md-4 text-center pb-5">
+            <img src="imagenes/emblema.jpg" class="img-fluid imagenes">
+            <h4 class="text-center pt-3">Emblemas</h4>
+        </div>
+        <div class="col-md-4 text-center pb-5">
+            <img src="imagenes/vacaciones.jpg" class="img-fluid imagenes">
+            <h4 class="text-center pt-3">Vacaciones</h4>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid">
+          <div class="row estiloDeFondo">
+            <div class="col-md-4 text-star">
+              <img src="imagenes/bandera de NY.png" class="img-fluid banderaDeNyFooter">
+            </div>
+            <div class="col-md-4 text-center text-light p-3">
+              <p>Cambie a nuestro sitio web para viajeros desde:</p>
+            </div>
+            <div class="col-md-4 text-end p-3 redes">
+              <i class="fab fa-instagram iconoIg"></i>
+              <i class="fab fa-youtube iconoYt"></i>
+            </div>
+          </div>
+          <div class="row redes">
+            <div class="dropdown text-center pt-0">
+              <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown">Paises</button>
+              <ul class="dropdown-menu col-m-" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button">Argentina</button></li>
+                  <li><button class="dropdown-item" type="button">Uruguay</button></li>
+                  <li><button class="dropdown-item" type="button">España</button></li>
+                  <li><button class="dropdown-item" type="button">Brasil</button></li>
+                  <li><button class="dropdown-item" type="button">Mexico</button></li>
+                  <li><button class="dropdown-item" type="button">Colombia</button></li>
+              </ul>
+          </div>
+          </div>
     </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
